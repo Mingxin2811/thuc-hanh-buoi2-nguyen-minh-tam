@@ -3,7 +3,7 @@ import './NavBar.scss';
 export default function Navbar() {
     return (
         <>
-            <nav style={{ padding: '10px', backgroundColor: '#f0f0f0' }}>
+            <nav >
             <ul className="header-menu">
                 <li className="header-item"> <Link to="/">Home</Link></li>
                 <li className="header-item"> <Link to="/shop">Shop</Link></li>
